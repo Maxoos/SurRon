@@ -34,4 +34,20 @@ For the motor extension cables:
 
 ## How do I mount the controller?
 
-There's no avilable mount for the SurRon currently, but you can build one easily from some 2mm sheet of metal and a [good vice](https://s.click.aliexpress.com/e/_ASB2cy). 
+You can build one easily from some 2mm sheet of metal and a [good vice](https://s.click.aliexpress.com/e/_ASB2cy), or you can get a mounting guard from [technicq-emx](https://technicq-emx.com/product/njfd-72530-controller-mounting-guard/)
+
+## How do I setup the controller for the SurRon?
+
+It's actully fairly easy:
+
+1. Connect the motor and plug connectos to the contoller
+2. Lift the bike so the read wheel is in the air
+3. Start the controller, launch the app and connect to the controller. 
+4. Click the AutoLearn button under the graph tab.
+5. Let the controller learn the motor, the controller will sound a beep when finished
+
+![image](https://user-images.githubusercontent.com/1913291/133976759-834536b5-fd22-4e7a-b1bf-bd8215088734.png)
+
+6. Switch to the Params tab, and set the TempSensor to 4-Cacu
+7. Change the MaxSpeed to around 4500RPM
+
